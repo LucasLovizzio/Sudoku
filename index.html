@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <title>Sudoku</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <h1>Sudoku</h1>
+  <div class="tablero-container">
+    <div id="sudoku-board" class="board"></div>
+    <div id="timer-container">
+      <span id="timer">00:00</span>
+    </div>
+  </div>
+  <div id="vidas" class="vidas">
+    <span class="corazon">❤️</span>
+    <span class="corazon">❤️</span>
+    <span class="corazon">❤️</span>
+    <span class="corazon">❤️</span>
+    <span class="corazon">❤️</span>
+  </div>
+  <div class="buttons">
+    <button onclick="generar()">Generar</button>
+    <button onclick="verificar()">Verificar</button>
+    <button onclick="limpiar()">Limpiar</button>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
