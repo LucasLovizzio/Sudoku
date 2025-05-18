@@ -18,7 +18,9 @@ window.onload = function () {
     }
   }
   reiniciarVidas();
-  startTimer();
+  stopTimer();
+  secondsElapsed = 0;
+  updateTimerDisplay();
 };
 
 let vidasRestantes = 5;
